@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "author" content= "Sepideh Sharifani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">  
+    <link rel="preconnect" href="//fdn.fontcdn.ir">
+    <link rel="preconnect" href="//v1.fontapi.ir">
+    <link href="https://v1.fontapi.ir/css/Nazanin:400;700" rel="stylesheet">  
+    <title> پیشخوان  </title>
+</head>
+<body dir="rtl">
+
+    <nav class="mobile-toggle">
+        <i class="trigger ri-menu-3-fill" onclick="myFunction()"></i>
+        <div class="mobile-menu">
+            <div id="myLinks">
+                <a href="#">میزکار</a>
+                <a href="#">مشتریان</a>
+                <a href="#">راهنما</a>
+                <a href="#">خروج از حساب</a>
+              </div>        
+        </div>
+    </nav>
+    <sidebar class="sidebar close mobile-hide">
+        <header >
+            <div class="image-text">
+                <div class="image">
+                    <img src="assets/sidebar/logo.png" alt="لوگو">
+                </div> 
+                <div class="text">
+                    <span>پیشخوان </span>
+                </div>
+            </div>
+            <i class="ri-arrow-left-s-line toggle"></i>
+            <hr>
+        </header>
+        <section class="Menu>
+            <ul class="menu-links">
+                <li>
+                    <i class="ri-dashboard-line icon"></i>
+                    <a href="#">
+                        <span class="text-list">میز کار</span>
+                    </a>
+                </li>
+                <li>
+                    <i class="ri-customer-service-2-fill icon"></i>
+                    <a href="#">
+                        <span class="text-list">مشتریان</span>
+                    </a>
+                </li>
+                <li>
+                    <i class="ri-questionnaire-line icon"></i>
+                    <a href="#">
+                        <span class="text-list">راهنما</span>
+                    </a>
+                </li>
+                <li>
+                    <i class="ri-logout-box-r-line icon"></i>
+                    <a href="#">
+                        <span class="text-list">خروج از حساب</span>
+                    </a>
+                </li>
+            </ul>        
+        </section>
+    </sidebar>
+
+    <section class="main-page">
+        <header>
+            <nav class="navbar">
+                <div class="headerwrap">
+                    <div class="right">
+                        <div class="search">
+                            <label for="search" class="text"></label>
+                            <input type="search" placeholder="جستجو">
+                            <button type="submit"><i class="ri-search-eye-line icon"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="left">
+                        <div class="icons">
+                            <i class="ri-settings-2-line icon"></i>
+                            <div class="moon-sun">
+                                <i class="ri-moon-line moon icon"></i>
+                                <i class="ri-sun-line sun icon" style="display: none;"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="info-text">
+                                <span class="info-name">سپیده شریفانی</span>
+                                <span class="info-job">توسعه دهنده</span>
+                            </div>
+                            <img src="assets/info/1.jpg" alt="manager">
+                        </div>
+                      
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="sales-info" >
+                    <div class="box">
+                        <div class="top">
+                            <p class="top-text">تعداد کل مشتریان</p>
+                            <p class="top-text">63250</p>
+                            <img class="icon" src="assets/icons/1.png">
+                        </div>
+                        <div class="bottom">
+                            <p class="bottom-text">نسبت به ماه قبل</p>
+                            <div class="number">
+                                <i class="ri-arrow-up-line icon" style="color: green;"></i>
+                                <p class="bottom-text">23%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="top">
+                            <p class="top-text">فروش امروز<p>
+                            <p class="top-text">500</p>
+                            <img class="icon" src="assets/icons/2.png">
+                        </div>
+                        <div class="bottom">
+                            <p class="bottom-text">نسبت به روز قبل</p>
+                            <div class="number">
+                                <i class="ri-arrow-up-line icon" style="color: green;"></i>
+                                <p class="bottom-text">3%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="top">
+                            <p class="top-text">فروش ماه</p>
+                            <p class="top-text">3000</p>
+                            <img class="icon" src="assets/icons/3.png">
+                        </div>
+                        <div class="bottom">
+                            <p class="bottom-text">نسبت به ماه قبل</p>
+                            <div class="number">
+                                <i class="ri-arrow-up-line icon" style="color: green;"></i>
+                                <p class="bottom-text">2%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="top">
+                            <p class="top-text">فروش سالانه</p>
+                            <p class="top-text">60856</p>
+                            <img class="icon" src="assets/icons/4.png">
+                        </div>
+                        <div class="bottom">
+                            <p class="bottom-text">نسبت به سال قبل</p>
+                            <div class="number">
+                                <i class="ri-arrow-down-line icon" style="color: red;"></i>
+                                <p class="bottom-text">3%</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>    
+            <section class="details">
+                <div class="customers">
+                    <p class="inbox-text">مشتریان اخیر</p>
+                    <table class="table-content">
+                        <thead>
+                            <tr>
+                                <th>نام</th>
+                                <th>نام خانوادگی</th>
+                                <th>شماره تماس</th>
+                                <th>میزان تراکنش</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>مجتبی</td>
+                                <td>محمدی</td>
+                                <td>09356247861</td>
+                                <td>30 میلیون ریال</td>
+                            </tr>
+                            <tr>
+                                <td>هدی</td>
+                                <td>اکبری</td>
+                                <td>09366247861</td>
+                                <td>15 میلیون ریال</td>
+                            </tr>
+                            <tr>
+                                <td>احمد</td>
+                                <td>اصغری</td>
+                                <td>09125462897</td>
+                                <td>50 میلیون ریال</td>
+                            </tr>
+                            <tr>
+                                <td>محمد</td>
+                                <td>دربندسری</td>
+                                <td>09875642315</td>
+                                <td>5 میلیون ریال</td>
+                            </tr>
+                            <tr>
+                                <td>مهسا</td>
+                                <td>طورسینا</td>
+                                <td>09873545861</td>
+                                <td>10 میلیون ریال</td>
+                            </tr>
+                            <tr>
+                                <td>سمیه</td>
+                                <td>آشتیانی</td>
+                                <td>09124879261</td>
+                                <td>20 میلیون ریال</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="viewAll">نمایش همه</button>
+                </div>
+                <!-- chart -->
+                <div class="chart">
+                    <p class="inbox-text">نمودار فروش بازاریابان</p>
+                    <div class="jschart">
+                        <canvas id="line-chart"></canvas>
+                    </div>
+                </div>
+                <!-- best customers -->
+                <div class="bestcst">
+                    <div class="card first">
+                        <img src="assets/customer/bg.png" alt="background Image" class="imageTop">
+                        <img src="assets/customer/man1.jpeg" class="profile">
+                        <p class="fullName">احمد اصغری</p>
+                        <div class="profileInfo">
+                            <p class="profileText">میزان فروش:</p>
+                            <p class="profileText">50 میلیون ریال</p>
+                        </div>
+                        <button class="viewProfile">مشاهده پروفایل</button>
+                    </div>
+                </div>
+                <div class="bestcst">
+                    <div class="card second">
+                        <img src="assets/customer/bg.png" alt="background Image" class="imageTop">
+                        <img src="assets/customer/man2.jpg" class="profile">
+                        <p class="fullName">مجتبی محمدی</p>
+                        <div class="profileInfo">
+                            <p class="profileText">میزان فروش:</p>
+                            <p class="profileText">30 میلیون ریال</p>
+                        </div>
+                        <button class="viewProfile">مشاهده پروفایل</button>
+                    </div>
+                </div>
+                <div class="bestcst">
+                    <div class="card third">
+                        <img src="assets/customer/bg.png" alt="background Image" class="imageTop">
+                        <img src="assets/customer/woman1.jpg" class="profile">
+                        <p class="fullName">سمیه آشتیانی</p>
+                        <div class="profileInfo">
+                            <p class="profileText">میزان فروش:</p>
+                            <p class="profileText">20 میلیون ریال</p>
+                        </div>
+                        <button class="viewProfile">مشاهده پروفایل</button>
+                    </div>
+                </div>
+
+                <div class="chart2">
+                    <p class="inbox-text">نمودار فروش براساس پلتفرم</p>
+                    <div class="jschart">
+                        <canvas id="donut-chart"></canvas>
+                    </div>
+                </div>
+
+            </section>   
+            
+           
+
+            
+        </main>
+
+        
+        <footer></footer>
+
+    </section>
+
+</body>
+
+<<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="index.js"></script>
+
+
+</html>
